@@ -1,0 +1,264 @@
+%----------------------------------------------------------------------------------------
+% FRONT MATTER CONFIGURATION
+% Using roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+%----------------------------------------------------------------------------------------
+\frontmatter
+
+% Default to the plain heading style until the thesis style is called for the body content
+\pagestyle{plain}
+
+%----------------------------------------------------------------------------------------
+% TITLE PAGE
+%----------------------------------------------------------------------------------------
+\newgeometry{top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}
+
+\begin{titlepage}
+
+% Use Helvetica (Arial substitute)
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\newcommand\BackgroundImage{%
+    \put(0,3.5cm){%
+        \parbox[b][\paperheight]{\paperwidth}{%
+            \vfill
+            \includegraphics[width=\paperwidth]{Backgound_First_Page.png} % Replace with your image
+            \vfill
+        }%
+    }%
+}
+
+% Use Arial font for the title page
+\setsansfont{Arial}
+
+\begin{tabularx}{\textwidth}{X X} % Two equally spaced columns
+  \centering\includegraphics[height=2cm]{LogoED.png} & 
+  \centering\includegraphics[height=2cm]{LogoUN.jpg} \\
+\end{tabularx}
+
+% Add the background image
+\AddToShipoutPictureBG*{%
+    \BackgroundImage
+}
+
+\vspace{1.2cm}
+
+% Custom font sizes for "THESE DE DOCTORAT"
+{\LARGE {\Huge T}HESE DE DOCTORAT}
+
+\vspace{1.8cm}
+% Custom font sizes for "NANTES UNIVERSITE"
+{\fontsize{14}{18}\selectfont NANTES UNIVERSITE} \\
+
+{\large E}COLE {\large D}OCTORALE N° 642
+
+
+{\fontsize{12}{16}\selectfont \textit{Ecole doctorale Végétal, Animal, Aliment, Mer, Environnement}}
+
+{\fontsize{12}{16}\selectfont Spécialité : Biologie et écologie marine} \\\\\\
+
+{\fontsize{12}{16}\ Par}
+\vspace{0.2cm}
+
+\hspace{0.7cm}{\fontsize{20}{24}\selectfont \textbf{Simon OIRY}} \\
+
+\parbox{17cm}{
+{\fontsize{16}{20}\selectfont \textbf{Caractérisation par télédétection multi-échelle de la végétation intertidale des côtes européennes en réponses aux pressions naturelles et anthropiques} }
+}\\\\
+
+{\fontsize{11}{15}\selectfont \textbf{Thèse présentée et soutenue à Nantes, le 15 mai 2025}}
+
+{\fontsize{11}{15}\selectfont \textbf{Unité de Recherche: Institut Des Substances et Organismes de la Mer}}
+\\\\\\
+
+{\fontsize{12}{16}\selectfont \textbf{Rapporteurs avant soutenance :}}
+
+\begin{tabular}{@{}l l l@{}}
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Antoine Collin}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Maitre de conférences}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Ecole Pratique des Hautes Etudes, Dinard}} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Rodney Foster}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Professeur}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Université de Hull, Royaume-Uni}} \\
+\end{tabular}\\\\
+
+{\fontsize{12}{16}\selectfont \textbf{Composition du Jury : }}
+
+\begin{tabular}{@{}l l l l@{}}
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Président :}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{ }} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{ }} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{ }} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Examinateurs :}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Antoine Collin}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Maitre de conférences}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Ecole Pratique des Hautes Etudes, Dinard}} \\
+    
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Rodney Foster}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Professeur}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Université de Hull, Royaume-Uni}} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Evangelos Spyrakos}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Professeur}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Université de Stirling, Royaume-Uni}} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Barbara Ondiviela}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Senior scientist}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Université de Cantabrie, Espagne}} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Dir. de thèse :}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Laurent Barillé}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Professeur}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Nantes Université}} \\
+
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Co-dir. de thèse :}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Pierre Gernez}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Maitre de conférence}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Nantes Université}} \\
+\end{tabular} \\\\
+
+{\fontsize{11}{15}\selectfont \textbf{Invitée : }}
+
+
+\begin{tabular}{@{}l l l@{}}
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Federica Braga}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Senior Researcher}} & 
+    {\fontsize{10}{14}\selectfont \textcolor{textgray}{Conseil Supérieur de la Recherche, Venise, Italie}} \\
+
+\end{tabular}
+\end{titlepage}
+
+% Restore the default margins for the rest of the document
+\restoregeometry
+
+% Reset to serif font for the rest of the document
+\renewcommand{\familydefault}{\rmdefault}
+
+
+%----------------------------------------------------------------------------------------
+% DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+$if(thesis.declaration)$
+  \begin{declaration}
+    \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+    $if(thesis.declaration.text)$
+      $thesis.declaration.text$
+    $else$
+      \input{"$thesis.declaration$"}
+    $endif$
+  \end{declaration}
+  \startonrightwithgap
+$endif$
+
+%----------------------------------------------------------------------------------------
+% QUOTATION PAGE (IF ANY)
+%----------------------------------------------------------------------------------------
+$if(thesis.quotation)$
+  \vspace*{0.2\textheight}
+  $if(thesis.quotation.text)$
+    \noindent``{\itshape $thesis.quotation.text$}''\bigbreak
+    \hfill $thesis.quotation.attribution$
+  $else$
+    \input{``$thesis.quotation$''}
+  $endif$
+$endif$
+
+%----------------------------------------------------------------------------------------
+% ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+% $if(abstract)$
+%   \clearpage
+%   \begin{abstract}
+%     \addchaptertocentry{\abstractname}  % Add the abstract to the table of contents
+%     $abstract$
+%   \end{abstract}
+% $endif$
+
+%----------------------------------------------------------------------------------------
+% ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+$if(thesis.acknowledgements)$
+  \startonrightwithgap
+  \begin{acknowledgements}
+    \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+    $if(thesis.acknowledgements.text)$
+      $thesis.acknowledgements.text$
+    $else$
+      \input{"$thesis.acknowledgements$"}
+    $endif$
+  \end{acknowledgements}
+$endif$
+
+%----------------------------------------------------------------------------------------
+% LIST OF CONTENTS/FIGURES/TABLES
+%----------------------------------------------------------------------------------------
+\setlength{\cftsecindent}{0.5em}        % Less indentation for sections
+\setlength{\cftsubsecindent}{1em}       % Less indentation for subsections
+\setlength{\cftsubsubsecindent}{1.5em}  % Less indentation for subsubsections
+\renewcommand{\cftfigpresnum}{Figure~}
+\renewcommand{\cfttabpresnum}{Table~}
+\renewcommand{\cftfigaftersnum}{:~}  % Add ": " after the figure number
+\renewcommand{\cfttabaftersnum}{:~}  % Add ": " after the table number  % Prefix for tables
+\setlength{\cftbeforefigskip}{0.5em}  % Space between figure entries
+\setlength{\cftbeforetabskip}{0.5em} % Space between table entries
+\setlength{\cftfignumwidth}{5em} % Adjust width for figure numbers
+\setlength{\cfttabnumwidth}{5em} % Adjust width for table numbers
+\setlength{\cftfigindent}{0em}    % Indentation for figure captions
+\setlength{\cfttabindent}{0em}    % Indentation for table captions
+\startonrightwithgap
+\begingroup
+\hypersetup{linkcolor=$if(toclinkcolor)$$toclinkcolor$$else$black$endif$}
+\startonrightwithgap
+\tableofcontents  
+\startonrightwithgap
+\listoffigures
+\startonrightwithgap
+\listoftables 
+\endgroup
+
+%----------------------------------------------------------------------------------------
+% ABBREVIATIONS (IF ANY)
+%----------------------------------------------------------------------------------------
+$if(thesis.abbreviations)$
+  % \addchaptertocentry{\abbreviationsname}
+  % \label{abbreviations}
+  \startonrightwithgap
+  \input{"$thesis.abbreviations$"}
+$endif$
+
+%----------------------------------------------------------------------------------------
+% PHYSICAL CONSTANTS/OTHER DEFINITIONS (IF ANY)
+%----------------------------------------------------------------------------------------
+$if(thesis.constants)$
+  \startonrightwithgap
+  \input{"$thesis.constants$"}
+$endif$
+
+%----------------------------------------------------------------------------------------
+% SYMBOLS (IF ANY)
+%----------------------------------------------------------------------------------------
+$if(thesis.symbols)$
+  % \addchaptertocentry{\symbolsname}
+  \startonrightwithgap
+  \input{"$thesis.symbols$"}
+$endif$
+
+%----------------------------------------------------------------------------------------
+% DEDICATION (IF ANY)
+%----------------------------------------------------------------------------------------
+$if(thesis.dedication)$
+  \startonrightwithgap
+  \dedicatory{\input{"$thesis.dedication$"}} 
+$endif$
+
+%----------------------------------------------------------------------------------------
+% MAIN CONTENT
+%----------------------------------------------------------------------------------------
+\mainmatter % Begin numeric (1,2,3...) page numbering
+% Return the page headers back to the "thesis" style
+\pagestyle{thesis}

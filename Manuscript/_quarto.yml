@@ -1,0 +1,60 @@
+project:
+  type: book
+  output-dir: ../docs
+book:
+  title: "Caractérisation par télédétection multi-échelle de la végétation intertidale des côtes
+européennes en réponses aux pressions naturelles et anthropiques"
+  author: 
+    name: Simon Oiry
+    url: https://oirysimon.com
+  date: "March 11, 2025"
+  downloads: [pdf, docx]
+  abstract: "To Be Written"
+  search: true
+  chapters:
+    - index.qmd
+    - Chapter1/intro.qmd
+    - Chapter2/Chapter2.qmd
+    - Chapter3/Chapter3.qmd
+    - Chapter4/Chapter4.qmd
+    - Chapter5/Chapter5.qmd
+    - Chapter6/Chapter6.qmd
+    - References/references.qmd
+repo-url: https://github.com/SigOiry/PhD
+search: true
+thesis:
+  supervisors:
+    - name: Prof. Laurent Barillé
+    - name: Dr. Pierre Gernez
+  university: University of Nantes
+  department: "Institut Des Substances et Organismes de la Mer"
+  group: "Remote Sensing, Benthic Ecology and Ecotoxicology team"
+  degree-name: "Doctor of Philosophy in Marine Ecology"
+  faculty: Sciences & Techniques
+  logoED: images/Logos_vaame_PdL.png
+  logoED-height: "1.5cm"
+  logoUN: images/Logotype_Nantes-U_noir-300dpi.png
+  logoUN-height: "1cm"
+  abbreviations : "Frontmatter/abbreviations.tex"
+  symbols: "Frontmatter/symbols.tex"
+  acknowledgements: "Frontmatter/acknowledgements.tex"
+  
+  
+# bibliography: [References/Introduction.bib, References/Chapter2.bib, References/Chapter5.bib, References/Chapter3.bib, References/Chapter4.bib, References/packages.bib, References/Chapter6.bib]
+bibliography: [References/UniqueReferences.bib]
+csl: RSE.csl
+
+
+format:
+  quarto-thesis-pdf: 
+    urlcolor: black
+    toclinkcolor: black
+    toc-depth: 4
+    titlepage: true
+    latex-options: 
+      - margin=1in
+    include-in-header: chaptertitlepage.tex
+    output-file: "PhD_Simon_French"
+
+editor: source
+

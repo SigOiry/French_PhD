@@ -54,8 +54,16 @@
 \ProcessOptions\relax
 
 \LoadClass{\baseclass}
-
+\usepackage{babel} 
 %  Simple interface for the user  to customize the chapter titles 
+\providecaptionname{english,british,american}{\chaptername}{Chapitre}
+\providecaptionname{english,british,american}{\contentsname}{Table des matières}
+\providecaptionname{english,british,american}{\listfigurename}{Liste des figures}
+\providecaptionname{english,british,american}{\listtablename}{Liste des tableaux}
+% \renewcommand{\abbrevname}{Liste des abréviations}
+% \renewcommand{\symbolsname}{Liste des symboles}
+
+
 \ProvideDocumentCommand{\abovechapterskip}{}{\vspace*{20pt}}
 \ProvideDocumentCommand{\chapterbelowskip}{}{\vspace*{40pt}}
 \ProvideDocumentCommand{\chapterinbetweenskip}{}{\vspace*{20pt}}
@@ -264,7 +272,7 @@
 \newcommand{\decoRule}{\rule{.8\textwidth}{.4pt}} % New command for a rule to be used under figures
 
 \ProvideDocumentCommand{\addchaptertocentry}{ m }{%
-	\addcontentsline{toc}{Chapitre}{#1}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\addcontentsline{toc}{chapter}{#1}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 }
 
 %----------------------------------------------------------------------------------------
@@ -295,7 +303,7 @@
 \renewcommand{\chaptermark}[1]{\markboth{\truncate{50}{#1}}{}}
 \providepairofpagestyles{thesisSimple}{%
 	\clearpairofpagestyles%
-	\automark[chapter]{Chapitre}
+	\automark[chapter]{chapter}
 	\ihead{\headmark}% Inner header
 	\ohead[\pagemark]{\pagemark}% Outer header
 }
@@ -337,8 +345,8 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	ABBREVIATIONS PAGE DESIGN
 %----------------------------------------------------------------------------------------
 
-\newcommand{\abbrevname}{List of Abbreviations}
-\providecaptionname{english,british,american}{\abbrevname}{List of Abbreviations}
+\newcommand{\abbrevname}{Liste des abréviations}
+\providecaptionname{english,british,american}{\abbrevname}{Liste des abréviations}
 \providecaptionname{ngerman,german,austrian,naustrian}{\abbrevname}{Abk\"urzungsverzeichnis}
 \NewDocumentEnvironment{abbreviations}{ m }{%
 	\ifbool{nolistspace}{\begingroup\singlespacing}{}
@@ -519,8 +527,8 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	SYMBOLS PAGE DESIGN
 %----------------------------------------------------------------------------------------
 
-\newcommand{\symbolsname}{List of Symbols}
-\providecaptionname{english,british,american}{\symbolsname}{List of Symbols}
+\newcommand{\symbolsname}{Liste des symboles}
+\providecaptionname{english,british,american}{\symbolsname}{Liste des symboles}
 \providecaptionname{ngerman,german,austrian,naustrian}{\symbolsname}{Symbolverzeichnis}
 
 \NewDocumentEnvironment{symbols}{ m }{%

@@ -54,12 +54,12 @@
 \ProcessOptions\relax
 
 \LoadClass{\baseclass}
-\usepackage{babel} 
+% \usepackage[french]{babel}
 %  Simple interface for the user  to customize the chapter titles 
-% \providecaptionname{english,british,american}{\chaptername}{Chapitre}
-% \providecaptionname{english,british,american}{\contentsname}{Table des matières}
-% \providecaptionname{english,british,american}{\listfigurename}{Liste des figures}
-% \providecaptionname{english,british,american}{\listtablename}{Liste des tableaux}
+\renewcommand{\chaptername}{Chapitre}
+\renewcommand{\contentsname}{Table des matières}
+\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\listtablename}{Liste des tableaux}
 % \renewcommand{\abbrevname}{Liste des abréviations}
 % \renewcommand{\symbolsname}{Liste des symboles}
 

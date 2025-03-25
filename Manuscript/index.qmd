@@ -3,11 +3,11 @@ chaptertopimage: "{Chapter1/img/seagrasses.png}"
 chapterbottomimage: "{Chapter1/img/seagrasses.png}"
 ---
 
-# Preface {.unnumbered}
+# Préface {.unnumbered}
 
-This PhD work was carried out at Nantes University between 2022 and 2024, within the "Remote Sensing, Benthic Ecology and Ecotoxicology" (RSBE²) team of the Institute of Marine Substances and Organisms (ISOMer). This thesis was funded by the Ministry of Research and Higher Education and supervised by the doctoral school "Plant, Animal, Food, Sea, Environment" (VAAME).
+Ce travail de doctorat a été réalisé à l’Université de Nantes entre 2022 et 2024, au sein de l’équipe Télédétection, Écologie Benthique et Écotoxicologie (RSBE²) de l’Institut des Substances et Organismes Marins (ISOMer). Cette thèse a été financée par le Ministère de la Recherche et de l’Enseignement Supérieur et encadrée par l’école doctorale Végétal, Animal, Alimentation, Mer, Environnement (VAAME).
 
-## Scientific papers
+## Articles scientifiques
 
 - **Oiry, S**., Davies, B. F. R., Rosa, P., Debly, A., Zoffoli, M. L., Barillé, A.-L., Harin, N., Román, M., Gernez, P., &  Barillé, L. (Submitted). Heatwave impacts on intertidal seagrass reflectance: From laboratory experiment to satellite mapping of Seagrass Heat Shock Index.
 
@@ -36,7 +36,7 @@ This PhD work was carried out at Nantes University between 2022 and 2024, within
 -   Brunier, G., **Oiry, S.**, Gruet, Y., Dubois, S. F., & Barillé, L. (2022). Topographic Analysis of Intertidal Polychaete Reefs (Sabellaria alveolata) at a Very High Spatial Resolution. *Remote Sensing*, 14(2), 307. https://doi.org/10.3390/rs14020307
 
 
-## Presentations to International Conferences
+## Présentations à des conférences internationales
 
 -   Effect of Marine and Atmospheric Heatwaves on Reflectance and Pigment Composition of Intertidal *Zostera noltei* (February 2025); BioSpace25 - Biodiversity insight from Space, Frascati, Italy; Oral presentation
 
@@ -50,10 +50,10 @@ This PhD work was carried out at Nantes University between 2022 and 2024, within
 
 -  Topographic analysis of intertidal polychaete reefs (Sabellaria alveolata) using very high resolution UAV remote sensing (23 - 27 may 2022); Living Planet Symposium, Bonn, Germany ; Poster
 
-## Project related to the thesis.
+## Projet lié à la thèse.
 ### BiCOME
 ![](images/BiCOME Logo.png){width=40%  fig-align="center"}
-This thesis has been closely related to the european, ESA funded, project [BiCOME](https://bicome.info). This project, led by the Plymouth Marine Laboratory ([PML](https://pml.ac.uk)) in collaboration with the University of Nantes, the German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt, [DLR](https://www.dlr.de/en)) and [HYGEOS](https://hygeos.com/en/) has started in october 2021 and has ended before the end of this thesis, in october 2023. It aimed to demonstrate that Essential Biodiversity Variables (EBVs), relevant for scientific and monitoring applications, can be obtained from state-of-the-art remotely sensed reflectance close to the shoreline, and that they can be scalable globally.
+Cette thèse est étroitement liée au projet européen, financé par l’ESA, [BiCOME](https://bicome.info). Ce projet, coordonné par le Plymouth Marine Laboratory ([PML](https://pml.ac.uk)) en collaboration avec l’Université de Nantes, le Centre aérospatial allemand (Deutsches Zentrum für Luft- und Raumfahrt, [DLR](https://www.dlr.de/en)) et [HYGEOS](https://hygeos.com/en/) a débuté en octobre 2021 et s’est terminé avant la fin de cette thèse, en octobre 2023. Il visait à démontrer que des Essential Biodiversity Variables (EBVs), pertinentes pour les applications scientifiques et de surveillance, peuvent être obtenues à partir de la réflectance de surface mesurée par télédétection de pointe à proximité du littoral, et qu’elles peuvent être généralisées à l’échelle mondiale.
 
 ![](images/ESA_Logo.png){width=40%  fig-align="center"}
 
@@ -68,14 +68,14 @@ This thesis has been closely related to the european, ESA funded, project [BiCOM
 
 ![](images/Rewrite_banner.png){width=100%  fig-align="center"}
 
-Part of the thesis is related to the REWRITE project, led by Nantes University and funded by the European Union. This project involves 24 partners across 14 countries and focuses on 10 demonstration sites. Its aim is to promote the adaptation of the innovative conservation approach known as 'rewilding' as a nature-based solution for restoring Europe's intertidal areas. 
+Une partie de cette thèse est liée au projet REWRITE, coordonné par l’Université de Nantes et financé par l’Union européenne. Ce projet regroupe 24 partenaires répartis dans 14 pays et se concentre sur 10 sites de démonstration. Il a pour objectif de promouvoir l’adaptation de l’approche innovante de conservation appelée rewilding comme solution fondée sur la nature pour restaurer les zones intertidales de l’Europe.
 
 ![](images/EU_Logo.png){width=40%  fig-align="center"}
 
 
 ### InvaSea
 
-Part of the thesis is related to the InvaSea project, founded by the French National Centre for Space Studies (CNES). It aims to proves the capacity of remote sensing to map the presence of the alien invasive species *Gracilaria vermiculophylla* in french and spanish estuaries. 
+Une partie de cette thèse est liée au projet InvaSea, financé par le Centre National d’Études Spatiales (CNES). Il vise à démontrer la capacité de la télédétection à cartographier la présence de l’espèce exotique envahissante *Gracilaria vermiculophylla* dans les estuaires français et espagnols.
 
 ![](images/cnes_logo.png){width=40%  fig-align="center"}
 

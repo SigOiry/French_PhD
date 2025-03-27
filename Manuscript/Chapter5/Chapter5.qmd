@@ -1,5 +1,5 @@
 ---
-title: "L'impact des vagues de chaleur sur les herbiers de zostères à l'aide de la télédétection hyperspectrale et multispectrale."
+title: "Les impacts des vagues de chaleur sur la réflectance des herbiers intertidaux : de l'expérience à la cartographie"
 ---
 
 ```{=latex}

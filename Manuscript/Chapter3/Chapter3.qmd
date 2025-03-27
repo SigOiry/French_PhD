@@ -1,5 +1,5 @@
 ---
-title: Discrimination des Herbiers Marins des Macroalgues Vertes dans les Zones Intertidales Européennes à l'Aide d'Images Multispectrales Haute Résolution de Drone
+title: La discrimination des herbiers de zostères et des macroalgues vertes dans les zones intertidales européennes à l'aide d'images multispectrales haute résolution provenant de drones.
 number-sections: true
 ---
 

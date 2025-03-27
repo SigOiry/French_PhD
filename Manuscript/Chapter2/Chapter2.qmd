@@ -160,7 +160,7 @@ flxtbl <- Table %>%
   # flextable::set_table_properties(width = 1, layout = "autofit")
 
 # Display the flextable
-flextable::save_as_image(flxtbl, path = "Manuscript/Chapter2/Figs/SPECIESTABLE.png")
+# flextable::save_as_image(flxtbl, path = "Manuscript/Chapter2/Figs/SPECIESTABLE.png")
 # flxtbl
 knitr::include_graphics("Figs/SPECIESTABLE.png")
 ```
@@ -328,7 +328,7 @@ ft <- align(ft, align = "center", part = "all") # Center align text
 ft <- bold(ft, part = "header") # Bold the header
 
 # Display the flextable
-save_as_image(ft, path = "Manuscript/Chapter1/Figs/metricsTable.png")
+# save_as_image(ft, path = "Manuscript/Chapter1/Figs/metricsTable.png")
 
 knitr::include_graphics("Figs/metricsTable.png")
 

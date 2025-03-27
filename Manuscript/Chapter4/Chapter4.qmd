@@ -1,5 +1,5 @@
 ---
-title: "Distributions spatiales et temporelles de l'espèce invasive exotique *Gracilaria vermiculophylla*"
+title: Distributions spatiales et temporelles de l'espèce invasive exotique *Gracilaria vermiculophylla*
 ---
 
 ```{=latex}
